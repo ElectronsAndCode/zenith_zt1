@@ -4497,7 +4497,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ZX1:D2114LC"
+		(symbol "ZT1:D2114LC"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4898,7 +4898,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ZX1:HM6116P"
+		(symbol "ZT1:HM6116P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9292,7 +9292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 217.17 108.2548 0)
 			(effects
 				(font
@@ -9301,7 +9301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -9310,7 +9310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -9722,7 +9722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ZX1:HM6116P")
+		(lib_id "ZT1:HM6116P")
 		(at 162.56 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10056,7 +10056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 251.1552 104.14 0)
 			(effects
 				(font
@@ -10065,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 100.33 0)
 			(effects
 				(font
@@ -10074,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 250.19 100.33 0)
 			(effects
 				(font
@@ -10126,7 +10126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 218.1352 68.58 0)
 			(effects
 				(font
@@ -10135,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 217.17 64.77 0)
 			(effects
 				(font
@@ -10144,7 +10144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 64.77 0)
 			(effects
 				(font
@@ -10235,7 +10235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ZX1:D2114LC")
+		(lib_id "ZT1:D2114LC")
 		(at 204.47 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10618,7 +10618,7 @@
 			(uuid "1a0a9011-78f1-47a6-ac18-b2a938303848")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1b0cf4c1-249a-46f4-a9d3-5c0e911316e3"
 					(reference "U127")
 					(unit 3)
@@ -11165,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 177.8 84.1248 0)
 			(effects
 				(font
@@ -11174,7 +11174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -11183,7 +11183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -11434,7 +11434,7 @@
 			(uuid "1a0a9011-78f1-47a6-ac18-b2a938303849")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1b0cf4c1-249a-46f4-a9d3-5c0e911316e3"
 					(reference "U127")
 					(unit 2)
@@ -11604,7 +11604,7 @@
 			(uuid "cf7e1cef-7fb6-4230-846f-9e0728e42ff2")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1b0cf4c1-249a-46f4-a9d3-5c0e911316e3"
 					(reference "U108")
 					(unit 4)
@@ -11613,7 +11613,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ZX1:D2114LC")
+		(lib_id "ZT1:D2114LC")
 		(at 204.47 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11893,7 +11893,7 @@
 			(uuid "25e05d12-0efc-42bc-9fd3-77b715025d22")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1b0cf4c1-249a-46f4-a9d3-5c0e911316e3"
 					(reference "U103")
 					(unit 1)

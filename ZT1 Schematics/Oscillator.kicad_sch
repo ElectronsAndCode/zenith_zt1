@@ -5,873 +5,6 @@
 	(uuid "4d7262ed-2761-4c5a-afa8-3373521c98e1")
 	(paper "A5")
 	(lib_symbols
-		(symbol "74LS10_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LS10"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Triple 3-input NAND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL Nand3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS10_1_1_1"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_1_2"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 0 0)
-					(length 4.953)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_2_1"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_2_2"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 0 0)
-					(length 4.953)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_3_1"
-				(arc
-					(start 0 3.81)
-					(mid 3.7934 0)
-					(end 0 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_3_2"
-				(arc
-					(start -3.81 3.81)
-					(mid -2.589 0)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1855 -2.584)
-					(end -0.6096 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.6096 3.81)
-					(mid 2.1928 2.5924)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 0 0)
-					(length 4.953)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_4_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS10_1_4_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "74xx:74LS04"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1305,8 +438,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U132"
-				(at -0.0083 8.89 0)
+			(property "Reference" "U"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1314,7 +447,7 @@
 				)
 			)
 			(property "Value" "74LS10"
-				(at -0.0083 6.35 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1901,7 +1034,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1919,7 +1052,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4489,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 88.9 80.518 90)
 			(effects
 				(font
@@ -4498,7 +3631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -4507,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -4523,7 +3656,7 @@
 			(uuid "6b92a569-fb66-4bd0-bb55-6480cef6f11e")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "R129")
 					(unit 1)
@@ -4559,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
+		(property "Footprint" "ZT1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
 			(at 83.5152 88.9 0)
 			(effects
 				(font
@@ -4568,7 +3701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -4577,7 +3710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -4593,7 +3726,7 @@
 			(uuid "4e406837-dfc3-43e3-a24d-ac64a6679fd2")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "C109")
 					(unit 1)
@@ -4705,7 +3838,7 @@
 			(uuid "55dfbf47-dfff-4810-838a-2a601862904b")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "U142")
 					(unit 1)
@@ -4847,7 +3980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 97.4852 30.48 0)
 			(effects
 				(font
@@ -4856,7 +3989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -4865,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -4915,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 76.2 80.518 90)
 			(effects
 				(font
@@ -4924,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -4933,7 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -5015,7 +4148,7 @@
 			(uuid "e2df84bd-4384-41cd-9094-5dbf6ed1d211")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "#PWR023")
 					(unit 1)
@@ -5024,7 +4157,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS10_1")
 		(lib_id "74xx:74LS10")
 		(at 162.56 35.56 270)
 		(mirror x)
@@ -5120,7 +4252,7 @@
 			(uuid "dd0eb2aa-556a-4c85-b292-934dd667846f")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "U132")
 					(unit 3)
@@ -5222,7 +4354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 78.4352 30.48 0)
 			(effects
 				(font
@@ -5231,7 +4363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 77.47 26.67 0)
 			(effects
 				(font
@@ -5240,7 +4372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 77.47 26.67 0)
 			(effects
 				(font
@@ -5322,7 +4454,7 @@
 			(uuid "1429b5e2-d2a5-42bd-8a9a-4195e2b46f20")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "#PWR08")
 					(unit 1)
@@ -5492,7 +4624,7 @@
 			(uuid "05dc4ad7-862d-4585-996f-c4a8d8462a86")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "#PWR013")
 					(unit 1)
@@ -5624,7 +4756,7 @@
 			(uuid "e2f3e4e8-0245-4c70-a30a-705000dd1d7d")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "#PWR07")
 					(unit 1)
@@ -5667,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -5676,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -5898,7 +5030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
+		(property "Footprint" "ZT1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
 			(at 70.8152 88.9 0)
 			(effects
 				(font
@@ -5907,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5916,7 +5048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -6104,7 +5236,7 @@
 			(uuid "dd0eb2aa-556a-4c85-b292-934dd6678470")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "U132")
 					(unit 4)
@@ -6269,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 152.4 33.3248 0)
 			(effects
 				(font
@@ -6278,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 148.59 34.29 0)
 			(effects
 				(font
@@ -6287,7 +5419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 148.59 34.29 0)
 			(effects
 				(font
@@ -6405,7 +5537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
+		(property "Footprint" "ZT1:C_Disc_D9.0mm_W2.5mm_P7.50mm"
 			(at 96.2152 88.9 0)
 			(effects
 				(font
@@ -6414,7 +5546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -6423,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -6439,7 +5571,7 @@
 			(uuid "c6f96eac-a0d3-4664-b426-c1aa9a913b66")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/1522dedb-184f-4914-b2e2-907c84c4788d"
 					(reference "C110")
 					(unit 1)
@@ -6643,7 +5775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC"
+		(property "Footprint" "ZT1:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC"
 			(at 87.63 21.59 0)
 			(effects
 				(font
@@ -6652,7 +5784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 87.63 21.59 0)
 			(effects
 				(font
@@ -6661,7 +5793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 87.63 21.59 0)
 			(effects
 				(font
@@ -7119,7 +6251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 23.8252 31.75 0)
 			(effects
 				(font
@@ -7128,7 +6260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 22.86 27.94 0)
 			(effects
 				(font
@@ -7137,7 +6269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 22.86 27.94 0)
 			(effects
 				(font

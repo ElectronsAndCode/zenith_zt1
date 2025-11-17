@@ -5,389 +5,6 @@
 	(uuid "2fe5a955-0211-417e-8886-e2c85507e75e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74LS368_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U122"
-				(at 2.1433 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "74LS368"
-				(at 2.1433 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hex Bus Driver inverter, 3-state outputs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL Buffer BUS 3State"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?16*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS368_1_1_0"
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "I4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "I1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "I2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "I3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "I5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "I6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "OEa"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "OEb"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "O4a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "O1a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "O2a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "O3a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "O5b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "O6b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS368_1_1_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "74xx:74LS00"
 			(pin_names
 				(offset 1.016)
@@ -1364,22 +981,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U121"
-				(at 2.1433 17.78 0)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "74LS156"
-				(at 2.1433 15.24 0)
+				(at -7.62 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1392,7 +1007,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS156"
-				(at 0 -12.7 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1401,7 +1016,7 @@
 				)
 			)
 			(property "Description" "Dual 2 to 4 lines Decoder/Demultiplexer, Open Collector"
-				(at 0 -12.7 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1583,14 +1198,14 @@
 				(pin output inverted
 					(at 12.7 10.16 180)
 					(length 5.08)
-					(name "Q3a"
+					(name "Q0a"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1600,24 +1215,6 @@
 				)
 				(pin output inverted
 					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Q2a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 5.08 180)
 					(length 5.08)
 					(name "Q1a"
 						(effects
@@ -1635,16 +1232,34 @@
 					)
 				)
 				(pin output inverted
-					(at 12.7 2.54 180)
+					(at 12.7 5.08 180)
 					(length 5.08)
-					(name "Q0a"
+					(name "Q2a"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Q3a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1655,14 +1270,14 @@
 				(pin output inverted
 					(at 12.7 -2.54 180)
 					(length 5.08)
-					(name "Q3b"
+					(name "Q0b"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1672,24 +1287,6 @@
 				)
 				(pin output inverted
 					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "Q2b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 -7.62 180)
 					(length 5.08)
 					(name "Q1b"
 						(effects
@@ -1707,16 +1304,34 @@
 					)
 				)
 				(pin output inverted
-					(at 12.7 -10.16 180)
+					(at 12.7 -7.62 180)
 					(length 5.08)
-					(name "Q0b"
+					(name "Q2b"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "Q3b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7871,7 +7486,7 @@
 		)
 	)
 	(global_label "RST"
-		(shape input)
+		(shape output)
 		(at 270.51 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8248,7 +7863,7 @@
 			(uuid "6713204a-c49c-47fb-9142-48801279f47d")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U115")
 					(unit 2)
@@ -8352,7 +7967,7 @@
 			(uuid "6713204a-c49c-47fb-9142-48801279f47e")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U115")
 					(unit 1)
@@ -8452,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 224.79 67.6148 0)
 			(effects
 				(font
@@ -8461,7 +8076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 220.98 68.58 0)
 			(effects
 				(font
@@ -8470,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 220.98 68.58 0)
 			(effects
 				(font
@@ -8634,7 +8249,7 @@
 			(uuid "161dfb33-a206-4f98-b163-b235e66d794f")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR0108")
 					(unit 1)
@@ -8670,7 +8285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:D_350mil"
+		(property "Footprint" "ZT1:D_350mil"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -8679,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -8688,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -8756,7 +8371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 142.24 92.4052 0)
 			(effects
 				(font
@@ -8765,7 +8380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -8774,7 +8389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -8790,7 +8405,7 @@
 			(uuid "94a1abb9-4b9c-4980-8b7f-780d6360bca1")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "C142")
 					(unit 1)
@@ -8826,7 +8441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "ZT1:CP_Radial_D5.0mm_P2.50mm"
 			(at 196.5452 52.07 0)
 			(effects
 				(font
@@ -8835,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 195.58 48.26 0)
 			(effects
 				(font
@@ -8844,7 +8459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 195.58 48.26 0)
 			(effects
 				(font
@@ -8860,7 +8475,7 @@
 			(uuid "5b662e76-8c49-4196-87a8-b6b16f63f760")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "C107")
 					(unit 1)
@@ -8962,7 +8577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 177.292 48.26 90)
 			(effects
 				(font
@@ -8971,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -8980,7 +8595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -9143,7 +8758,7 @@
 			(uuid "829eef70-da45-43d8-b53d-f8a921815ba3")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR0102")
 					(unit 1)
@@ -9249,7 +8864,7 @@
 			(uuid "6713204a-c49c-47fb-9142-48801279f47f")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U115")
 					(unit 5)
@@ -9294,7 +8909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 269.24 118.11 0)
 			(effects
 				(font
@@ -9303,7 +8918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 269.24 118.11 0)
 			(effects
 				(font
@@ -9349,7 +8964,7 @@
 			(uuid "d6962b02-5249-4e71-bb95-1e97c385716a")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "S101")
 					(unit 1)
@@ -9533,7 +9148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:D_350mil"
+		(property "Footprint" "ZT1:D_350mil"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -9542,7 +9157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -9551,7 +9166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -9585,7 +9200,7 @@
 			(uuid "d2b09b11-d4ce-4c14-9346-ae94409fdf24")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "D122")
 					(unit 1)
@@ -9685,7 +9300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 200.66 98.0948 0)
 			(effects
 				(font
@@ -9694,7 +9309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -9703,7 +9318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -9755,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:D_350mil"
+		(property "Footprint" "ZT1:D_350mil"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -9764,7 +9379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -9773,7 +9388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -9807,7 +9422,7 @@
 			(uuid "33c4010b-6ba5-45dd-aa97-524a10b89a4b")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "D121")
 					(unit 1)
@@ -9843,7 +9458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 203.708 48.26 90)
 			(effects
 				(font
@@ -9852,7 +9467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -9861,7 +9476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -9877,7 +9492,7 @@
 			(uuid "dfe04a97-5fc2-4265-8e08-4d7ea2649f53")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "R104")
 					(unit 1)
@@ -9913,7 +9528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 168.402 40.64 90)
 			(effects
 				(font
@@ -9922,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -9931,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -10226,7 +9841,7 @@
 			(uuid "ee418fe7-3c85-4e47-a8a6-02bc703c5446")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR096")
 					(unit 1)
@@ -10358,7 +9973,7 @@
 			(uuid "19b0ea55-d8b7-42dd-9511-15cb85095574")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR0100")
 					(unit 1)
@@ -10491,7 +10106,7 @@
 			(uuid "a54175d3-9962-4c88-9723-6302b180e7f6")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR088")
 					(unit 1)
@@ -10593,7 +10208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:D_350mil"
+		(property "Footprint" "ZT1:D_350mil"
 			(at 104.14 41.91 0)
 			(effects
 				(font
@@ -10602,7 +10217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 104.14 41.91 0)
 			(effects
 				(font
@@ -10611,7 +10226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 104.14 41.91 0)
 			(effects
 				(font
@@ -10645,7 +10260,7 @@
 			(uuid "00699fc1-ea6d-4f00-8751-8bdb4e22df72")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "D123")
 					(unit 1)
@@ -10757,7 +10372,7 @@
 			(uuid "3bbac819-7722-4850-90da-27aa6dd18670")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U123")
 					(unit 1)
@@ -10889,7 +10504,7 @@
 			(uuid "00736826-9379-43e6-bba5-2b9c192eb652")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR0101")
 					(unit 1)
@@ -10923,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:R_450mil"
+		(property "Footprint" "ZT1:R_450mil"
 			(at 185.42 42.418 90)
 			(effects
 				(font
@@ -10932,7 +10547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -10941,7 +10556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -11039,7 +10654,7 @@
 			(uuid "1d7c9d7f-4e68-41f8-9c93-9bc6d9de5581")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "R111")
 					(unit 1)
@@ -11143,7 +10758,7 @@
 			(uuid "cf7e1cef-7fb6-4230-846f-9e0728e42ff2")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U108")
 					(unit 2)
@@ -11247,7 +10862,7 @@
 			(uuid "6713204a-c49c-47fb-9142-48801279f480")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U115")
 					(unit 4)
@@ -11256,7 +10871,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS368_1")
 		(lib_id "74xx:74LS368")
 		(at 132.08 110.49 0)
 		(unit 1)
@@ -11360,7 +10974,7 @@
 			(uuid "aa459952-c846-4b06-b5a2-094b42272f26")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U122")
 					(unit 1)
@@ -11426,7 +11040,7 @@
 			(uuid "e7083233-56a7-493a-9867-0e90b969f4e1")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR089")
 					(unit 1)
@@ -11492,7 +11106,7 @@
 			(uuid "c00be04c-3744-4eb8-8884-563876ccc241")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR097")
 					(unit 1)
@@ -11535,7 +11149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -11544,7 +11158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -11590,7 +11204,7 @@
 			(uuid "69fb4e50-1af9-46f0-962e-a4f2ef10e197")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "S102")
 					(unit 1)
@@ -11626,7 +11240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZX1:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "ZT1:CP_Radial_D5.0mm_P2.50mm"
 			(at 213.0552 52.07 0)
 			(effects
 				(font
@@ -11635,7 +11249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 212.09 48.26 0)
 			(effects
 				(font
@@ -11644,7 +11258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 212.09 48.26 0)
 			(effects
 				(font
@@ -11696,7 +11310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 181.61 31.115 0)
 			(effects
 				(font
@@ -11707,7 +11321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -11717,7 +11331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -11914,7 +11528,7 @@
 			(uuid "e7a15319-90d4-4416-912d-d17c6fc17504")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "U121")
 					(unit 1)
@@ -12030,7 +11644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZX1:C_350mil"
+		(property "Footprint" "ZT1:C_350mil"
 			(at 149.86 38.4048 0)
 			(effects
 				(font
@@ -12039,7 +11653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 146.05 39.37 0)
 			(effects
 				(font
@@ -12048,7 +11662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 39.37 0)
 			(effects
 				(font
@@ -12064,7 +11678,7 @@
 			(uuid "681dc7a5-c034-4d65-a859-b04e447c56f0")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "C143")
 					(unit 1)
@@ -12130,7 +11744,7 @@
 			(uuid "0119e09a-b055-4320-b787-28ef97d8b4e4")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR098")
 					(unit 1)
@@ -12196,7 +11810,7 @@
 			(uuid "6b9a849a-fc55-46a0-91b4-90e5bfcad65f")
 		)
 		(instances
-			(project "ZX1"
+			(project "ZT1"
 				(path "/f4096561-d684-4672-ab54-4b1ef20fc4c8/9b5b68af-e47c-44b6-a28c-1eef28c2cc8c"
 					(reference "#PWR099")
 					(unit 1)

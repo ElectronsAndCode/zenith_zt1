@@ -1,0 +1,167 @@
+(footprint "C_16mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
+	(tags "C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 6.5mm")
+	(property "Reference" "C219"
+		(at 7.5 -4.37 0)
+		(layer "F.SilkS")
+		(uuid "db595ac0-2a20-404e-ad7d-1400f3e80ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_16mm"
+		(at 7.5 4.37 0)
+		(layer "F.Fab")
+		(uuid "e6bb5b3e-66cf-4859-949b-1be053033b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa449c4-1e12-4e37-b164-daeae53ea709")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "264fdcd9-2eb1-4a8b-9518-5106773b3aa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.04 0)
+		(end 1.38 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d612af17-c0f1-4542-a242-67d03c2261f6")
+	)
+	(fp_line
+		(start 13.96 0)
+		(end 13.62 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4adcd3ba-1ee9-415d-aaaa-4155d8bfffa2")
+	)
+	(fp_rect
+		(start 1.38 -2.87)
+		(end 13.62 2.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8dc60e31-b162-47f2-83c4-e237abe82109")
+	)
+	(fp_rect
+		(start 1.2 -3)
+		(end 13.8 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ec60d9a-a459-4002-9f6e-8720a8587207")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93ce4284-1e5d-4d24-af80-b4e514d90380")
+	)
+	(fp_line
+		(start 15 0)
+		(end 13.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66e39d32-7c4f-4e47-ad90-f8991489b1b1")
+	)
+	(fp_rect
+		(start 1.5 -2.75)
+		(end 13.5 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "752ee1b2-7b7d-49b7-8f82-41b0cc73f731")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "e7744a68-a7f2-4522-b9fa-a27c25223490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70327ed3-be97-4f63-85e9-1a8e655a91a2")
+	)
+	(pad "2" thru_hole circle
+		(at 15.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f3cb881-0da4-469e-bbcb-ea059d622233")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
